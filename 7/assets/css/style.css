@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+}
+
+h1{
+	color: green;
+}
+
+.form-block{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form-block form{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 15px;
+	background: grey;
+}
+
+.form-block form input{
+	font-size: 24px;
+	margin-top: 10px;
+	
+}
